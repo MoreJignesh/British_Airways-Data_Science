@@ -42,6 +42,8 @@ The dataset includes various aspects of customer feedback, including:
   - Feedback text & word count
   - Year & Month of review
 
+![Model Data Description](https://github.com/user-attachments/assets/4f585496-b707-4c0f-85d8-ed82b8bed4c9)
+
 ---
 
 ## Steps and Tools Used
@@ -55,12 +57,21 @@ The dataset includes various aspects of customer feedback, including:
 - **Univariate Analysis**: Identifying trends in individual features.
 - **YOY (Year-over-Year) Change Analysis**: Tracking feedback evolution.
 - **Word Cloud Analysis**: Extracting key themes from text reviews.
+![Positive Feedback Word Cloud](https://github.com/user-attachments/assets/a98fd33d-3917-42af-978f-2f140f213f78)
+![Negative Feedback Word Cloud](https://github.com/user-attachments/assets/7346ef91-44c3-4d12-90e3-66f6a932cd35)
+- **Correlation Chart**: post performing Feature Selection.
+![Negative Feedback Word Cloud](https://github.com/user-attachments/assets/99387564-711d-43ba-88a7-a8cc40771ffc)
+
 - **Feature Scaling & Standardization**: Preparing data for modeling.
 
 ### Model Analysis
 #### **Sentiment Analysis Approaches:**
 - **VADER Sentiment Scoring** (Baseline sentiment analysis)
 - **Huggingface Model – Roberta (Pretrained Model)** (Advanced NLP approach)
+
+Why Chosen Roberta Pretrained Model Over VADER ?![image](https://github.com/user-attachments/assets/b88f0080-3f83-467f-a5bc-9beb1b073d97)
+
+**Results:** The **Roberta Model** demonstrated superior accuracy in sentiment analysis compared to VADER.
 
 #### **Regression Models for Predicting Recommendations:**
 - **Linear Regression:**  
@@ -70,7 +81,6 @@ The dataset includes various aspects of customer feedback, including:
   - Mean Squared Error: **0.0378**  
   - R-squared: **0.815**
 
-**Results:** The **Roberta Model** demonstrated superior accuracy in sentiment analysis compared to VADER.
 
 ---
 
@@ -82,6 +92,9 @@ The dataset includes various aspects of customer feedback, including:
    - **Inflight Entertainment & Seat Comfort** showed slight improvements.
    - **Value for Money** increased in 2024 compared to 2023.
    - **Wifi & Connectivity**, which faced issues in 2023, showed the most significant improvement.
+
+![In 2024, British Airline enhanced customer satisfaction by improving at 5 services out of 8 compared to 2023, as mentioned on this chart](https://github.com/user-attachments/assets/f6bf1433-a247-4556-bcf3-4299af09cf86)
+
 
 2. **Passenger Preferences:**
    - More passengers shifted from **Economy Class** to higher classes, possibly influencing improved ratings.
